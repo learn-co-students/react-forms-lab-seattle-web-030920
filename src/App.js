@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import LoginForm from "./components/LoginForm";
 import TwitterMessage from "./components/TwitterMessage";
-
+ 
 class App extends Component {
 
   login = ({ username, password }) => {
@@ -21,8 +21,6 @@ class App extends Component {
           <pre>TwitterMessage</pre>
         </h1>
         <TwitterMessage maxChars={280} />
-
-
 
       </div>
     )
